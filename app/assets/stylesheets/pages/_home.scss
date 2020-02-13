@@ -20,6 +20,13 @@ p {
   margin-top: 80px;
 }
 
+.img-index:hover {
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+    transition: 1s -webkit-filter linear;
+}
+
+
 .header {
   margin: 240px 0px;
   padding: 0px 40px;
