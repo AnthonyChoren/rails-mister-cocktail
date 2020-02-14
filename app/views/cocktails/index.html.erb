@@ -17,6 +17,19 @@
     </div>
   </div>
 
+  <div class="container">
+  <div class="row">
+    <% @cocktails.each do |cocktail| %>
+      <div class="col-sm">
+          <%= link_to cocktail do %>
+          <%= image_tag "A.png", class: "img-index" %>
+          <h2 class="text-index"><%= cocktail.name %></h2>
+          <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
   <!-- GRID  -->
   <div class="row">
     <div class="col-sm">
